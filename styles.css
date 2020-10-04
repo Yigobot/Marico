@@ -1,0 +1,63 @@
+body {
+    background-color: violet;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: fondo;
+    transition: linear;
+}
+
+@keyframes fondo {
+    0% {
+     background-color: violet;
+    }
+  
+   50% {
+      background-color: rgb(143, 67, 146);
+    }
+    100% {
+        background-color: violet;
+    }
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    font-size: 1vh;
+    flex-direction: column;
+ 
+}
+
+
+
+.container img {
+    width: 30em;
+    border-radius: 50%;
+    margin: 0.25em;
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: white;
+    margin: 20vh 0px 0px 0px;
+
+}
+
+.container h3, h4 {
+    color: rgb(71, 55, 71);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h3 {
+    font-weight: bolder;
+    font-size: 6vw;
+    margin: 1em;
+    gap: 0;
+}
+
+
+
+.container h4 {
+    margin: 0;
+    font-size: 4vw;
+    color: whitesmoke;
+}
